@@ -15,4 +15,4 @@ for(let key of Object.key(circle))
 for(let entry of Object.entries(circle))
 	console.log(entry);
 
-for('radius' in circle) console.log('yes');
+if('radius' in circle) console.log('yes');
